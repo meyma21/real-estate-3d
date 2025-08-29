@@ -1,0 +1,48 @@
+{
+  "name": "real-estate-3d-management",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./node_modules/vite/bin/vite.js --host",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "proxy": "node proxy-server.js"
+  },
+  "dependencies": {
+    "@firebase/auth": "^1.10.6",
+    "@firebase/firestore": "^4.7.17",
+    "@firebase/storage": "^0.13.12",
+    "@types/three": "^0.160.0",
+    "axios": "^1.6.5",
+    "firebase": "^11.9.0",
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.21.3",
+    "swiper": "^11.2.10",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "cors": "^2.8.5",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "node-fetch": "^3.3.2",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}

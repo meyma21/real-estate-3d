@@ -1,0 +1,97 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isAdmin() {
+      return isAuthenticated() && 
+        request.auth.token.role == 'ADMIN';
+    }
+    
+    function isValidFileType() {
+      return request.resource.contentType.matches('image/.*') ||
+             request.resource.contentType.matches('model/gltf-binary') ||
+             request.resource.contentType.matches('model/gltf+json') ||
+             request.resource.contentType.matches('application/octet-stream') ||
+             request.resource.contentType.matches('model/.*') ||
+             request.resource.contentType == 'application/octet-stream';
+    }
+    
+    function isValidFileSize() {
+      return request.resource.size < 50 * 1024 * 1024; // 50MB max
+    }
+    
+    // PUBLIC READ ACCESS - 3D Floor Models
+    match /floors/{fileName} {
+      // Public read access for 3D viewer
+      allow read: if true;
+      
+      // Admin-only write access
+      allow create, update, delete: if isAdmin() && 
+                                    isValidFileType() && 
+                                    isValidFileSize();
+    }
+    
+    // PUBLIC READ ACCESS - Environment backgrounds
+    match /environments/{fileName} {
+      // Public read access for 3D viewer
+      allow read: if true;
+      
+      // Admin-only write access
+      allow create, update, delete: if isAdmin() && 
+                                    isValidFileType() && 
+                                    isValidFileSize();
+    }
+    
+    // PUBLIC READ ACCESS - Textures
+    match /textures/{fileName} {
+      // Public read access for 3D viewer
+      allow read: if true;
+      
+      // Admin-only write access
+      allow create, update, delete: if isAdmin() && 
+                                    isValidFileType() && 
+                                    isValidFileSize();
+    }
+    
+    // PUBLIC READ ACCESS - Apartment images
+    match /apartments/{apartmentId}/{fileName} {
+      // Public read access for viewer
+      allow read: if true;
+      
+      // Admin-only write access
+      allow create, update, delete: if isAdmin() && 
+                                    isValidFileType() && 
+                                    isValidFileSize();
+    }
+    
+    // LEGACY PATHS - Keep for backward compatibility
+    match /models/{floorId}/{fileName} {
+      // Public read access
+      allow read: if true;
+      
+      // Admin-only write access
+      allow create, update, delete: if isAdmin() && 
+                                    isValidFileType() && 
+                                    isValidFileSize();
+    }
+    
+    match /images/{apartmentId}/{fileName} {
+      // Public read access
+      allow read: if true;
+      
+      // Admin-only write access
+      allow create, update, delete: if isAdmin() && 
+                                    isValidFileType() && 
+                                    isValidFileSize();
+    }
+    
+    // Default deny for other paths
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+} 

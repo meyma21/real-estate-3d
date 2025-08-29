@@ -1,0 +1,573 @@
+i think the indexation probelm persits , please ckeck that cause im not sure :
+here a part of the console :
+ at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:105 🔍 Hotspot Debug - currentFloor: {id: 'ayYzqJg4Pf1NQVLfXinf', name: 'First Floor', level: 0, description: 'Ground level floor with garden access', totalApartments: null, …}
+FloorImageViewer.tsx:106 🔍 Hotspot Debug - currentImageIndex: 16
+FloorImageViewer.tsx:107 🔍 Hotspot Debug - floorImages: (20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+FloorImageViewer.tsx:110 🔍 IMAGE MAPPING DEBUG:
+FloorImageViewer.tsx:114   Index 0 → Image 1 (ground-floor-1.png)
+FloorImageViewer.tsx:114   Index 1 → Image 2 (ground-floor-2.png)
+FloorImageViewer.tsx:114   Index 2 → Image 3 (ground-floor-3.png)
+FloorImageViewer.tsx:114   Index 3 → Image 4 (ground-floor-4.png)
+FloorImageViewer.tsx:114   Index 4 → Image 5 (ground-floor-5.png)
+FloorImageViewer.tsx:114   Index 5 → Image 6 (ground-floor-6.png)
+FloorImageViewer.tsx:114   Index 6 → Image 7 (ground-floor-7.png)
+FloorImageViewer.tsx:114   Index 7 → Image 8 (ground-floor-8.png)
+FloorImageViewer.tsx:114   Index 8 → Image 9 (ground-floor-9.png)
+FloorImageViewer.tsx:114   Index 9 → Image 10 (ground-floor-10.png)
+FloorImageViewer.tsx:114   Index 10 → Image 11 (ground-floor-11.png)
+FloorImageViewer.tsx:114   Index 11 → Image 12 (ground-floor-12.png)
+FloorImageViewer.tsx:114   Index 12 → Image 13 (ground-floor-13.png)
+FloorImageViewer.tsx:114   Index 13 → Image 14 (ground-floor-14.png)
+FloorImageViewer.tsx:114   Index 14 → Image 15 (ground-floor-15.png)
+FloorImageViewer.tsx:114   Index 15 → Image 16 (ground-floor-16.png)
+FloorImageViewer.tsx:114   Index 16 → Image 17 (ground-floor-17.png)
+FloorImageViewer.tsx:114   Index 17 → Image 18 (ground-floor-18.png)
+FloorImageViewer.tsx:114   Index 18 → Image 19 (ground-floor-19.png)
+FloorImageViewer.tsx:114   Index 19 → Image 20 (ground-floor-20.png)
+FloorImageViewer.tsx:127 🔍 Hotspot Debug - isTopView: false
+FloorImageViewer.tsx:128 🔍 Hotspot Debug - imageNumber: 17
+FloorImageViewer.tsx:129 🔍 Hotspot Debug - currentImageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-17.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756468657&Signature=lkd1fAX8aXKUC0edl1wB4POZd3ZfU1ZsLDVRAb8Ko8%2FnQdWWIhDOenPAnHs7WbbP8mTqj2tawjJp6IFD8Lo8H%2F21bIC89Q7yl30kFDIiT9cTI2FEKC97kgiHypBBzLpVaRpi8gWnL1ZiLayu6Esly6Tk9s19sAERUq2%2BvgV%2FtZVQI%2FuuDb0TbNjqvlyCtnLJftf2pwmnH3ormrevdnr85yPANZk3oDM8HQlfmUTUqxNKTHsj97Djjby6vEm6cIJzFntibcaAIA0ulRcZ85iC3h%2F17XoFUugsWFZCPdE1vDr0XIxeFVhdgIHpr8NMlS91SBuy3kDcVBNPKDUB9t709g%3D%3D
+FloorImageViewer.tsx:132 🔍 AVAILABLE HOTSPOTS IN DATABASE:
+FloorImageViewer.tsx:133   - topViewHotspots: 1 hotspots
+FloorImageViewer.tsx:137   - angleHotspots["0"] 2 hotspots
+FloorImageViewer.tsx:137   - angleHotspots["10"] 1 hotspots
+FloorImageViewer.tsx:137   - angleHotspots["14"] 2 hotspots
+FloorImageViewer.tsx:137   - angleHotspots["15"] 2 hotspots
+FloorImageViewer.tsx:137   - angleHotspots["17"] 2 hotspots
+FloorImageViewer.tsx:137   - angleHotspots["34"] 1 hotspots
+FloorImageViewer.tsx:150 🔍 Hotspot Debug - showing angleHotspots for image number 17 : (2) [{…}, {…}]
+FloorImageViewer.tsx:163 🔍 Hotspot Debug - combinedHotspots result: (2) [{…}, {…}]
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'X1QmG2XDNDb3yR5nsAJX', x: 37.2487985375907, y: 35.78749164054628, width: null, height: null, …} at index: 0
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+FloorImageViewer.tsx:1051 🔍 Rendering hotspot: {apartmentId: 'fPqjmqZjJP3vEYNNpJI0', x: 36.721692897907815, y: 65.30576833406758, width: null, height: null, …} at index: 1
+FloorImageViewer.tsx:93 🔍 Hotspot positioning debug: {hotspot: {…}, pixelCoords: {…}, containerCoords: {…}, renderedImageRect: DOMRect}
+
+
+here is a part of backend logs :
+
+C:\Projects\real-estate-3d\backend>mvn spring-boot:run
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------------< com.realestate:real-estate-3d >--------------------
+[INFO] Building real-estate-3d 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ real-estate-3d >>>
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ real-estate-3d ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.11.0:compile (default-compile) @ real-estate-3d ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ real-estate-3d ---
+[INFO] skip non existing resourceDirectory C:\Projects\real-estate-3d\backend\src\test\resources
+[INFO]
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ real-estate-3d ---
+[INFO] No sources to compile
+[INFO]
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ real-estate-3d <<<
+[INFO]
+[INFO]
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ real-estate-3d ---
+[INFO] Attaching agents: []
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2025-08-22T12:53:24.737+01:00  INFO 14108 --- [           main] com.realestate.RealEstateApplication     : Starting RealEstateApplication using Java 17.0.16 with PID 14108 (C:\Projects\real-estate-3d\backend\target\classes started by hamid in C:\Projects\real-estate-3d\backend)
+2025-08-22T12:53:24.737+01:00 DEBUG 14108 --- [           main] com.realestate.RealEstateApplication     : Running with Spring Boot v3.2.3, Spring v6.1.4
+2025-08-22T12:53:24.745+01:00  INFO 14108 --- [           main] com.realestate.RealEstateApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-22T12:53:27.406+01:00  INFO 14108 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-22T12:53:27.436+01:00  INFO 14108 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-22T12:53:27.436+01:00  INFO 14108 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-08-22T12:53:27.610+01:00  INFO 14108 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-22T12:53:27.619+01:00  INFO 14108 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2753 ms
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+2025-08-22T12:53:29.166+01:00 DEBUG 14108 --- [           main] c.r.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2025-08-22T12:53:30.316+01:00  INFO 14108 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@816371, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18586f0, org.springframework.security.web.context.SecurityContextHolderFilter@184e363, org.springframework.security.web.header.HeaderWriterFilter@33ca19, org.springframework.web.filter.CorsFilter@d6f98e, org.springframework.security.web.authentication.logout.LogoutFilter@ce7fdf, com.realestate.security.JwtAuthenticationFilter@19126f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a34eb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a4557, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6728e8, org.springframework.security.web.session.SessionManagementFilter@86623f, org.springframework.security.web.access.ExceptionTranslationFilter@1f9b561, org.springframework.security.web.access.intercept.AuthorizationFilter@10a26b]
+2025-08-22T12:53:30.999+01:00  INFO 14108 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2025-08-22T12:53:31.028+01:00  INFO 14108 --- [           main] com.realestate.RealEstateApplication     : Started RealEstateApplication in 7.437 seconds (process running for 9.561)
+2025-08-22T12:53:34.764+01:00  INFO 14108 --- [           main] com.realestate.config.DataInitializer    : Collection 'floors' exists
+2025-08-22T12:53:34.949+01:00  INFO 14108 --- [           main] com.realestate.config.DataInitializer    : Collection 'apartments' exists
+2025-08-22T12:53:35.077+01:00  INFO 14108 --- [           main] com.realestate.config.DataInitializer    : Collection 'buyers' exists
+2025-08-22T12:53:35.178+01:00  INFO 14108 --- [           main] com.realestate.config.DataInitializer    : Collection 'pictures' exists
+2025-08-22T12:53:35.276+01:00  INFO 14108 --- [           main] com.realestate.config.DataInitializer    : Collection 'users' exists
+2025-08-22T12:53:35.461+01:00  INFO 14108 --- [           main] com.realestate.config.DataInitializer    : Initial data already exists, skipping initialization
+2025-08-22T12:55:28.551+01:00  INFO 14108 --- [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-22T12:55:28.551+01:00  INFO 14108 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-22T12:55:28.561+01:00  INFO 14108 --- [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-22T12:55:28.605+01:00 DEBUG 14108 --- [nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/floors
+2025-08-22T12:55:28.659+01:00 DEBUG 14108 --- [nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:55:28.670+01:00 DEBUG 14108 --- [nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/floors
+2025-08-22T12:55:29.598+01:00  WARN 14108 --- [nio-8081-exec-1] c.g.cloud.firestore.CustomClassMapper    : No setter/field for apartments found on class com.realestate.model.Floor
+2025-08-22T12:55:29.598+01:00  WARN 14108 --- [nio-8081-exec-1] c.g.cloud.firestore.CustomClassMapper    : No setter/field for imageUrl found on class com.realestate.model.Floor
+2025-08-22T12:55:29.607+01:00  WARN 14108 --- [nio-8081-exec-1] c.g.cloud.firestore.CustomClassMapper    : No setter/field for apartments found on class com.realestate.model.Floor
+2025-08-22T12:55:29.822+01:00 DEBUG 14108 --- [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/floors
+2025-08-22T12:55:29.828+01:00 DEBUG 14108 --- [nio-8081-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:55:29.844+01:00 DEBUG 14108 --- [nio-8081-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/floors
+2025-08-22T12:55:29.850+01:00 DEBUG 14108 --- [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/apartments
+2025-08-22T12:55:29.857+01:00 DEBUG 14108 --- [nio-8081-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:55:29.861+01:00 DEBUG 14108 --- [nio-8081-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/apartments
+2025-08-22T12:55:30.096+01:00  WARN 14108 --- [nio-8081-exec-3] c.g.cloud.firestore.CustomClassMapper    : No setter/field for type  found on class com.realestate.model.Apartment
+2025-08-22T12:55:30.103+01:00  WARN 14108 --- [nio-8081-exec-2] c.g.cloud.firestore.CustomClassMapper    : No setter/field for apartments found on class com.realestate.model.Floor
+2025-08-22T12:55:30.106+01:00  WARN 14108 --- [nio-8081-exec-2] c.g.cloud.firestore.CustomClassMapper    : No setter/field for imageUrl found on class com.realestate.model.Floor
+2025-08-22T12:55:30.107+01:00  WARN 14108 --- [nio-8081-exec-2] c.g.cloud.firestore.CustomClassMapper    : No setter/field for apartments found on class com.realestate.model.Floor
+2025-08-22T12:55:30.156+01:00 DEBUG 14108 --- [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/apartments
+2025-08-22T12:55:30.159+01:00 DEBUG 14108 --- [nio-8081-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:55:30.161+01:00 DEBUG 14108 --- [nio-8081-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/apartments
+2025-08-22T12:55:30.311+01:00 DEBUG 14108 --- [nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/floors/f0/images
+2025-08-22T12:55:30.330+01:00 DEBUG 14108 --- [nio-8081-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:55:30.363+01:00 DEBUG 14108 --- [nio-8081-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/floors/f0/images
+2025-08-22T12:55:30.433+01:00  WARN 14108 --- [nio-8081-exec-4] c.g.cloud.firestore.CustomClassMapper    : No setter/field for type  found on class com.realestate.model.Apartment
+2025-08-22T12:55:36.100+01:00 DEBUG 14108 --- [nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/floors/f0/images
+2025-08-22T12:55:36.105+01:00 DEBUG 14108 --- [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/floors/f0
+2025-08-22T12:55:36.224+01:00 DEBUG 14108 --- [nio-8081-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:55:36.253+01:00 DEBUG 14108 --- [nio-8081-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:55:36.261+01:00 DEBUG 14108 --- [nio-8081-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/floors/f0
+2025-08-22T12:55:36.257+01:00 DEBUG 14108 --- [nio-8081-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/floors/f0/images
+2025-08-22T12:55:36.436+01:00  WARN 14108 --- [nio-8081-exec-7] c.g.cloud.firestore.CustomClassMapper    : No setter/field for imageUrl found on class com.realestate.model.Floor
+2025-08-22T12:55:36.438+01:00  WARN 14108 --- [nio-8081-exec-7] c.g.cloud.firestore.CustomClassMapper    : No setter/field for apartments found on class com.realestate.model.Floor
+2025-08-22T12:56:42.750+01:00 DEBUG 14108 --- [nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/floors/f0
+2025-08-22T12:56:46.237+01:00 DEBUG 14108 --- [nio-8081-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:56:48.704+01:00 DEBUG 14108 --- [nio-8081-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/floors/f0
+2025-08-22T12:56:58.239+01:00  WARN 14108 --- [nio-8081-exec-9] c.g.cloud.firestore.CustomClassMapper    : No setter/field for imageUrl found on class com.realestate.model.Floor
+2025-08-22T12:57:00.219+01:00  WARN 14108 --- [nio-8081-exec-9] c.g.cloud.firestore.CustomClassMapper    : No setter/field for apartments found on class com.realestate.model.Floor
+2025-08-22T12:57:29.546+01:00 DEBUG 14108 --- [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/floors/ayYzqJg4Pf1NQVLfXinf/images
+2025-08-22T12:57:29.861+01:00 DEBUG 14108 --- [io-8081-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:57:30.093+01:00 DEBUG 14108 --- [io-8081-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/floors/ayYzqJg4Pf1NQVLfXinf/images
+2025-08-22T12:57:39.474+01:00 DEBUG 14108 --- [nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/floors/ayYzqJg4Pf1NQVLfXinf
+2025-08-22T12:57:39.477+01:00 DEBUG 14108 --- [nio-8081-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-08-22T12:57:39.518+01:00 DEBUG 14108 --- [nio-8081-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/floors/ayYzqJg4Pf1NQVLfXinf
+2025-08-22T12:57:39.690+01:00  WARN 14108 --- [nio-8081-exec-1] c.g.cloud.firestore.CustomClassMapper    : No setter/field for apartments found on class com.realestate.model.Floor
+
+
+
+
+after that i creted a new hotspot inthe image 10 :
+(http://localhost:5173/admin/floors/ayYzqJg4Pf1NQVLfXinf/annotate    console :
+
+
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-4.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=yeMUb10Mt0MxffHKhvKHBQ%2Be5rfkBg9G6IXahzGN3mzACjdyWXt8IhU7KTvEUZyjNq7VWqh2YTj%2BaOSG0r0msKzKZLpDp4rMnqh2SYYJdTF%2BczVMXSYEi7jH6TyHLmTDKdehAPAmbc3ClHOCeK%2Bn14ajFCfz2dU6xrtQn4aGgP6YGDYyuPZ6kWR6jjKvR9Bc1CyJUBoh3V9T4VeJ20mDtfWBlZrH%2Fv1vNcgjtB6z6NffirEL0avnEdKP1mbGzZPiNRqouuMlQDXQGbXir%2Bq0C9wulV7VuL6HmwN2YZPr3cTMFaC6sQ9AujN10t2fAi5EUY43zrJeUTWnPxbLvDvebw%3D%3D extracted number: 4
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-5.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=xZotTpuwyAoRr24cDewwu86h%2F8qmFa3j2E5izff93GPR4uDLj1qhqpCQVRBeFB6ofWbpokoet9ol7QVcnrtCiEUCtJHdG5ObNcvyqRgcNmcBbmDkWCGootaLsq60F2MoUYQeR90LYYSJg9rfHC2yPA%2FEAQWt7rRPMt9wg05J9ICNz2Qrh9OC0kylVXemRW9eDa3PfWpnIZoqtPSqLy2d8PLyXHtdVtjpbFJ%2Fm8dMyKkaS%2FcuqrOnkV8DdRyao5qC7NMe2fVM%2F4Dgqya3vTJl5euX6qvhnAvOln5XIRsoJRKh3jLXlGFah4Se7I8v%2BXzajuppvNWThCZOcdXopOWeJQ%3D%3D extracted number: 5
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-6.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=x5owrW8qMAdk5UiqB3wba5pYTAputSBudfULdOxIEMSxYipIsDMe8abd0kI92PbCxG7MaEgP2ZpAT7P%2BbNzpZC3j0dKO159M0teNdDpuZq69hmWX81wXxzUSRue4fQN0nIyvlIBMUx57OeLszdfeGX5xm06jft4M5zlRW1KrMhwVH6dz1y07Wx18WtlHTw0SfZXDh2rqsVxIiP1dItytcoWAdthmQmwsjv6Z%2FONf2Qi238rM%2FRCWeZHR3GAjsk4XysE7E8eULObO1pi7oaCZfRaguCjTCxEJPYg4OzTYz%2BUCmOHyNwyIixlrgdxWcY0Evd5kjymH4wHx2uW00MsGEQ%3D%3D extracted number: 6
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-7.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=T0HPnJ0S8GVNTDEEhzhR44%2BQXrFsH%2BapiIclJaCe59ij%2FeIidExbApEdPURNgMkMPsn5yI6OdEIqbLKWZZTTAWt068mmNe7Qou1u5wXZtRHgTTwmKIzjK7m8MqNtngkjEnK8qhnGe7j7D5xM0%2BDcMy%2Fec3AFQUE5pmIuUethOp518qYWGwGDeQ2McIX4XY%2BLCBTHRj4njyq3iRM4gUIyEhWcjyZKUQCbXEIH0%2B0rqsusPPanCjC%2FfAzGiIuRzqXV3prumwsTtkx4C0G8KvTpUNaAYVagR6r36d18mZLsqjhsuy3IqtkJ1UxeQS4YLNz6x4Eitx%2F378TjRPYHWjilUg%3D%3D extracted number: 7
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-8.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=f9eT5rMv7GNLWYIOtQegMyQs4vy4rWW%2BLInUSMNG4ZU10vjko58ULSQtZYSUVRLb3uWzm0NYGpTUk61B7sRJ0%2Bo9xOeNMhhs7FV54sglG2PLRw4ork3DIO41uiOU60KCDgndvcNyRmzRXnC2TN5mgtVUjdk46lMEMbpgKwHhf7gJ%2BF3GZvdRBlJrmnTKmIJh9AWPk2EWQ4AxVRtoWWoDLR4qIc9vbBQmg2zoDIcXzJ9YcF4LihG6gfBXovkwgcBisYOAD0jh643BmeiWmiQ9t0vxIodNd%2FIMoL8%2FbTXtn%2BLa4b6YwSXJKUgAGmsSOBNhnR5IsvaNWJ0oKip8%2FytTwQ%3D%3D extracted number: 8
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-9.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=LwhI5iKjgdWnSNfebw7GG9I4hz9YncuToDc9VsP2MA3JNllELkNRLtG3395UoGS69SiEkHA%2FYBfgyuwrEeaUqP8wR3kc67wDqKs%2BA5DZ5DtrakRDUYgWdE7edeRU1GoObMdNW%2BndwFsytgPiB9X6dvVv%2BMm2mt9dWr9924%2F8UE1jYOFl8De0ZqkAWnYk8jv4TMHTy46Cz4%2FLYhkCt3z52QbR6jnrcLOHOEOvKtB2n0Y%2BV3skZudWfchWo10W05d8PQoIuvrsFOCDeqsGVfb%2BuulXkeRvUEd%2FgRGIAgKeKMQBPS3WL0wUHjrLyNDWK4pgm9BRLj5e3wfXu0ZkNMRt1g%3D%3D extracted number: 9
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D extracted number: 10
+FloorAnnotator.tsx:226   - Found imageData: {imageIndex: 1, imageUrl: 'https://storage.googleapis.com/real-estate-vis-man…BtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D', angle: 17.142857142857142}
+FloorAnnotator.tsx:227   - Returning imageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D
+FloorAnnotator.tsx:208 🔍 getCurrentImageUrl Debug:
+FloorAnnotator.tsx:209   - selectedImageType: imageNumber
+FloorAnnotator.tsx:210   - selectedImageNumber: 10
+FloorAnnotator.tsx:211   - topViewImageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-20%20-%20Copie.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=7EeanMWRfkXbShpyOORbZSy%2Bt1lv5cuUltDT77biQVTuA7LJFr1Rd%2FnJhdYwGjawZYNZ9dQ0yvCWfPmsZzh3lY5iy%2BMbUrF6Dyr5OtLGPydOTBtljLom%2B2ylgKk8VNZi2VoHW83OwyW0Il%2Fnt0xtgU4lcPmN5bi1cZ9ynyKdDlIrI%2FsIL8HfRiRFNrcmaSzGp7I4aGsh8gIHF15UO1GwTwrctSXTqLCRd2aBZyeuWJfZJ7cNN7spVDIiOmzEhwNgDKQzR1j%2FDWJmSopASo3sjHujd6Wx6eHg49b7TMtCf%2FKINqMousis7pKuHGZpVT3HiJYdCT63yRKpiVmqkbBFqQ%3D%3D
+FloorAnnotator.tsx:212   - floorImages: (20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-1.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=1kFWV9D9v6Wyr%2FxOdrNgNXAdEg7OsvSeJNlW7QowJJCwH3F0%2F%2F8%2FfmcQEW5SwNGCAx8qtFon5xgMXXpBMcA77LOUwSHqS5401FnDL3fJLx0Mdb1ZCNRQ8seHN7lvRhf249XxnjefcwRGzj1jamQz7l6XaZKcm5YgIbCpiu3FxFWBDcEx5Mdpckk6MIaKdjGcWUU%2FCE%2FvE%2FLI1ovmi9pTi09h634%2B5urP58zkeYrdwNoEQRT6QoOKZxQRXc67J8bVO9EUXW501Mzl0RclDKK9uQXN5s1kTJ1P7zpkZvcm6zTEwnFX80bbxtPa3blfBruck%2FCQJZJ%2Fu02SymQEyQqwPw%3D%3D extracted number: 1
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-2.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=pzFFfSe8bUu7P10p7ogVHR%2F9tLLHRr5SPUj7pAn7wPokT%2Ba0M%2BM15Xjq6DM3o1EYF%2FuIGo%2FaRfqotO2vq8ckrjmIvHmQ%2BXf7ol7TE68LQxvhLNtOz8Wmr39PruShcim4nmkl2dnRkvd4WjZnnKg4jm23061OE%2BtRK2%2BcEpWVaADWTT15vjTd9f69mLkSM9akGsCRKBEfiJeaueepFhr4WN%2Fkpcx2hVb42GaoZoLNj3nwYw%2F%2BfPoNDDTpBtbbciwFbAoRLenDfnrhDnIk%2BX3n11zDginCFFHB7wykz2DTkU0mdNBlVbmebyT5tiKUA4pra2oKanDTorBBqtsiGruKGQ%3D%3D extracted number: 2
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-3.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=mEochqOf9eCvEAFLKhXQBqOAKe9rurDmY%2F7T2ZpfVt1Grkw4TxydTOxiI2VV%2BeA2QOVmvC9Lk1u9j6gGiFEomq8U72wkQB3lL2tJ%2BcIIg30%2F7zFEjWL9OL1IIQzcZaDcsdl9UiYA245DCKt3dWQjxSTDK1D7U3k3llVFtRFVMec74AXjbDub1frbjCsEDM6HBKy1nOiJXcFmkj3PbAjL0eoivvRPCoI9KecJbsOIAO511ZQoo2HuMO77jONo1KizZPrzgJdNpxMS569eSJ4jrYDBp0%2BK83a0nQ7NG7HzTKxv9OUYHG2zrpeixhiOjSGaQnc8sivN7WUeUafotbf8yg%3D%3D extracted number: 3
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-4.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=yeMUb10Mt0MxffHKhvKHBQ%2Be5rfkBg9G6IXahzGN3mzACjdyWXt8IhU7KTvEUZyjNq7VWqh2YTj%2BaOSG0r0msKzKZLpDp4rMnqh2SYYJdTF%2BczVMXSYEi7jH6TyHLmTDKdehAPAmbc3ClHOCeK%2Bn14ajFCfz2dU6xrtQn4aGgP6YGDYyuPZ6kWR6jjKvR9Bc1CyJUBoh3V9T4VeJ20mDtfWBlZrH%2Fv1vNcgjtB6z6NffirEL0avnEdKP1mbGzZPiNRqouuMlQDXQGbXir%2Bq0C9wulV7VuL6HmwN2YZPr3cTMFaC6sQ9AujN10t2fAi5EUY43zrJeUTWnPxbLvDvebw%3D%3D extracted number: 4
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-5.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=xZotTpuwyAoRr24cDewwu86h%2F8qmFa3j2E5izff93GPR4uDLj1qhqpCQVRBeFB6ofWbpokoet9ol7QVcnrtCiEUCtJHdG5ObNcvyqRgcNmcBbmDkWCGootaLsq60F2MoUYQeR90LYYSJg9rfHC2yPA%2FEAQWt7rRPMt9wg05J9ICNz2Qrh9OC0kylVXemRW9eDa3PfWpnIZoqtPSqLy2d8PLyXHtdVtjpbFJ%2Fm8dMyKkaS%2FcuqrOnkV8DdRyao5qC7NMe2fVM%2F4Dgqya3vTJl5euX6qvhnAvOln5XIRsoJRKh3jLXlGFah4Se7I8v%2BXzajuppvNWThCZOcdXopOWeJQ%3D%3D extracted number: 5
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-6.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=x5owrW8qMAdk5UiqB3wba5pYTAputSBudfULdOxIEMSxYipIsDMe8abd0kI92PbCxG7MaEgP2ZpAT7P%2BbNzpZC3j0dKO159M0teNdDpuZq69hmWX81wXxzUSRue4fQN0nIyvlIBMUx57OeLszdfeGX5xm06jft4M5zlRW1KrMhwVH6dz1y07Wx18WtlHTw0SfZXDh2rqsVxIiP1dItytcoWAdthmQmwsjv6Z%2FONf2Qi238rM%2FRCWeZHR3GAjsk4XysE7E8eULObO1pi7oaCZfRaguCjTCxEJPYg4OzTYz%2BUCmOHyNwyIixlrgdxWcY0Evd5kjymH4wHx2uW00MsGEQ%3D%3D extracted number: 6
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-7.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=T0HPnJ0S8GVNTDEEhzhR44%2BQXrFsH%2BapiIclJaCe59ij%2FeIidExbApEdPURNgMkMPsn5yI6OdEIqbLKWZZTTAWt068mmNe7Qou1u5wXZtRHgTTwmKIzjK7m8MqNtngkjEnK8qhnGe7j7D5xM0%2BDcMy%2Fec3AFQUE5pmIuUethOp518qYWGwGDeQ2McIX4XY%2BLCBTHRj4njyq3iRM4gUIyEhWcjyZKUQCbXEIH0%2B0rqsusPPanCjC%2FfAzGiIuRzqXV3prumwsTtkx4C0G8KvTpUNaAYVagR6r36d18mZLsqjhsuy3IqtkJ1UxeQS4YLNz6x4Eitx%2F378TjRPYHWjilUg%3D%3D extracted number: 7
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-8.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=f9eT5rMv7GNLWYIOtQegMyQs4vy4rWW%2BLInUSMNG4ZU10vjko58ULSQtZYSUVRLb3uWzm0NYGpTUk61B7sRJ0%2Bo9xOeNMhhs7FV54sglG2PLRw4ork3DIO41uiOU60KCDgndvcNyRmzRXnC2TN5mgtVUjdk46lMEMbpgKwHhf7gJ%2BF3GZvdRBlJrmnTKmIJh9AWPk2EWQ4AxVRtoWWoDLR4qIc9vbBQmg2zoDIcXzJ9YcF4LihG6gfBXovkwgcBisYOAD0jh643BmeiWmiQ9t0vxIodNd%2FIMoL8%2FbTXtn%2BLa4b6YwSXJKUgAGmsSOBNhnR5IsvaNWJ0oKip8%2FytTwQ%3D%3D extracted number: 8
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-9.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=LwhI5iKjgdWnSNfebw7GG9I4hz9YncuToDc9VsP2MA3JNllELkNRLtG3395UoGS69SiEkHA%2FYBfgyuwrEeaUqP8wR3kc67wDqKs%2BA5DZ5DtrakRDUYgWdE7edeRU1GoObMdNW%2BndwFsytgPiB9X6dvVv%2BMm2mt9dWr9924%2F8UE1jYOFl8De0ZqkAWnYk8jv4TMHTy46Cz4%2FLYhkCt3z52QbR6jnrcLOHOEOvKtB2n0Y%2BV3skZudWfchWo10W05d8PQoIuvrsFOCDeqsGVfb%2BuulXkeRvUEd%2FgRGIAgKeKMQBPS3WL0wUHjrLyNDWK4pgm9BRLj5e3wfXu0ZkNMRt1g%3D%3D extracted number: 9
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D extracted number: 10
+FloorAnnotator.tsx:226   - Found imageData: {imageIndex: 1, imageUrl: 'https://storage.googleapis.com/real-estate-vis-man…BtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D', angle: 17.142857142857142}
+FloorAnnotator.tsx:227   - Returning imageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D
+FloorAnnotator.tsx:208 🔍 getCurrentImageUrl Debug:
+FloorAnnotator.tsx:209   - selectedImageType: imageNumber
+FloorAnnotator.tsx:210   - selectedImageNumber: 10
+FloorAnnotator.tsx:211   - topViewImageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-20%20-%20Copie.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=7EeanMWRfkXbShpyOORbZSy%2Bt1lv5cuUltDT77biQVTuA7LJFr1Rd%2FnJhdYwGjawZYNZ9dQ0yvCWfPmsZzh3lY5iy%2BMbUrF6Dyr5OtLGPydOTBtljLom%2B2ylgKk8VNZi2VoHW83OwyW0Il%2Fnt0xtgU4lcPmN5bi1cZ9ynyKdDlIrI%2FsIL8HfRiRFNrcmaSzGp7I4aGsh8gIHF15UO1GwTwrctSXTqLCRd2aBZyeuWJfZJ7cNN7spVDIiOmzEhwNgDKQzR1j%2FDWJmSopASo3sjHujd6Wx6eHg49b7TMtCf%2FKINqMousis7pKuHGZpVT3HiJYdCT63yRKpiVmqkbBFqQ%3D%3D
+FloorAnnotator.tsx:212   - floorImages: (20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-1.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=1kFWV9D9v6Wyr%2FxOdrNgNXAdEg7OsvSeJNlW7QowJJCwH3F0%2F%2F8%2FfmcQEW5SwNGCAx8qtFon5xgMXXpBMcA77LOUwSHqS5401FnDL3fJLx0Mdb1ZCNRQ8seHN7lvRhf249XxnjefcwRGzj1jamQz7l6XaZKcm5YgIbCpiu3FxFWBDcEx5Mdpckk6MIaKdjGcWUU%2FCE%2FvE%2FLI1ovmi9pTi09h634%2B5urP58zkeYrdwNoEQRT6QoOKZxQRXc67J8bVO9EUXW501Mzl0RclDKK9uQXN5s1kTJ1P7zpkZvcm6zTEwnFX80bbxtPa3blfBruck%2FCQJZJ%2Fu02SymQEyQqwPw%3D%3D extracted number: 1
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-2.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=pzFFfSe8bUu7P10p7ogVHR%2F9tLLHRr5SPUj7pAn7wPokT%2Ba0M%2BM15Xjq6DM3o1EYF%2FuIGo%2FaRfqotO2vq8ckrjmIvHmQ%2BXf7ol7TE68LQxvhLNtOz8Wmr39PruShcim4nmkl2dnRkvd4WjZnnKg4jm23061OE%2BtRK2%2BcEpWVaADWTT15vjTd9f69mLkSM9akGsCRKBEfiJeaueepFhr4WN%2Fkpcx2hVb42GaoZoLNj3nwYw%2F%2BfPoNDDTpBtbbciwFbAoRLenDfnrhDnIk%2BX3n11zDginCFFHB7wykz2DTkU0mdNBlVbmebyT5tiKUA4pra2oKanDTorBBqtsiGruKGQ%3D%3D extracted number: 2
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-3.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=mEochqOf9eCvEAFLKhXQBqOAKe9rurDmY%2F7T2ZpfVt1Grkw4TxydTOxiI2VV%2BeA2QOVmvC9Lk1u9j6gGiFEomq8U72wkQB3lL2tJ%2BcIIg30%2F7zFEjWL9OL1IIQzcZaDcsdl9UiYA245DCKt3dWQjxSTDK1D7U3k3llVFtRFVMec74AXjbDub1frbjCsEDM6HBKy1nOiJXcFmkj3PbAjL0eoivvRPCoI9KecJbsOIAO511ZQoo2HuMO77jONo1KizZPrzgJdNpxMS569eSJ4jrYDBp0%2BK83a0nQ7NG7HzTKxv9OUYHG2zrpeixhiOjSGaQnc8sivN7WUeUafotbf8yg%3D%3D extracted number: 3
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-4.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=yeMUb10Mt0MxffHKhvKHBQ%2Be5rfkBg9G6IXahzGN3mzACjdyWXt8IhU7KTvEUZyjNq7VWqh2YTj%2BaOSG0r0msKzKZLpDp4rMnqh2SYYJdTF%2BczVMXSYEi7jH6TyHLmTDKdehAPAmbc3ClHOCeK%2Bn14ajFCfz2dU6xrtQn4aGgP6YGDYyuPZ6kWR6jjKvR9Bc1CyJUBoh3V9T4VeJ20mDtfWBlZrH%2Fv1vNcgjtB6z6NffirEL0avnEdKP1mbGzZPiNRqouuMlQDXQGbXir%2Bq0C9wulV7VuL6HmwN2YZPr3cTMFaC6sQ9AujN10t2fAi5EUY43zrJeUTWnPxbLvDvebw%3D%3D extracted number: 4
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-5.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=xZotTpuwyAoRr24cDewwu86h%2F8qmFa3j2E5izff93GPR4uDLj1qhqpCQVRBeFB6ofWbpokoet9ol7QVcnrtCiEUCtJHdG5ObNcvyqRgcNmcBbmDkWCGootaLsq60F2MoUYQeR90LYYSJg9rfHC2yPA%2FEAQWt7rRPMt9wg05J9ICNz2Qrh9OC0kylVXemRW9eDa3PfWpnIZoqtPSqLy2d8PLyXHtdVtjpbFJ%2Fm8dMyKkaS%2FcuqrOnkV8DdRyao5qC7NMe2fVM%2F4Dgqya3vTJl5euX6qvhnAvOln5XIRsoJRKh3jLXlGFah4Se7I8v%2BXzajuppvNWThCZOcdXopOWeJQ%3D%3D extracted number: 5
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-6.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=x5owrW8qMAdk5UiqB3wba5pYTAputSBudfULdOxIEMSxYipIsDMe8abd0kI92PbCxG7MaEgP2ZpAT7P%2BbNzpZC3j0dKO159M0teNdDpuZq69hmWX81wXxzUSRue4fQN0nIyvlIBMUx57OeLszdfeGX5xm06jft4M5zlRW1KrMhwVH6dz1y07Wx18WtlHTw0SfZXDh2rqsVxIiP1dItytcoWAdthmQmwsjv6Z%2FONf2Qi238rM%2FRCWeZHR3GAjsk4XysE7E8eULObO1pi7oaCZfRaguCjTCxEJPYg4OzTYz%2BUCmOHyNwyIixlrgdxWcY0Evd5kjymH4wHx2uW00MsGEQ%3D%3D extracted number: 6
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-7.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=T0HPnJ0S8GVNTDEEhzhR44%2BQXrFsH%2BapiIclJaCe59ij%2FeIidExbApEdPURNgMkMPsn5yI6OdEIqbLKWZZTTAWt068mmNe7Qou1u5wXZtRHgTTwmKIzjK7m8MqNtngkjEnK8qhnGe7j7D5xM0%2BDcMy%2Fec3AFQUE5pmIuUethOp518qYWGwGDeQ2McIX4XY%2BLCBTHRj4njyq3iRM4gUIyEhWcjyZKUQCbXEIH0%2B0rqsusPPanCjC%2FfAzGiIuRzqXV3prumwsTtkx4C0G8KvTpUNaAYVagR6r36d18mZLsqjhsuy3IqtkJ1UxeQS4YLNz6x4Eitx%2F378TjRPYHWjilUg%3D%3D extracted number: 7
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-8.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=f9eT5rMv7GNLWYIOtQegMyQs4vy4rWW%2BLInUSMNG4ZU10vjko58ULSQtZYSUVRLb3uWzm0NYGpTUk61B7sRJ0%2Bo9xOeNMhhs7FV54sglG2PLRw4ork3DIO41uiOU60KCDgndvcNyRmzRXnC2TN5mgtVUjdk46lMEMbpgKwHhf7gJ%2BF3GZvdRBlJrmnTKmIJh9AWPk2EWQ4AxVRtoWWoDLR4qIc9vbBQmg2zoDIcXzJ9YcF4LihG6gfBXovkwgcBisYOAD0jh643BmeiWmiQ9t0vxIodNd%2FIMoL8%2FbTXtn%2BLa4b6YwSXJKUgAGmsSOBNhnR5IsvaNWJ0oKip8%2FytTwQ%3D%3D extracted number: 8
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-9.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=LwhI5iKjgdWnSNfebw7GG9I4hz9YncuToDc9VsP2MA3JNllELkNRLtG3395UoGS69SiEkHA%2FYBfgyuwrEeaUqP8wR3kc67wDqKs%2BA5DZ5DtrakRDUYgWdE7edeRU1GoObMdNW%2BndwFsytgPiB9X6dvVv%2BMm2mt9dWr9924%2F8UE1jYOFl8De0ZqkAWnYk8jv4TMHTy46Cz4%2FLYhkCt3z52QbR6jnrcLOHOEOvKtB2n0Y%2BV3skZudWfchWo10W05d8PQoIuvrsFOCDeqsGVfb%2BuulXkeRvUEd%2FgRGIAgKeKMQBPS3WL0wUHjrLyNDWK4pgm9BRLj5e3wfXu0ZkNMRt1g%3D%3D extracted number: 9
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D extracted number: 10
+FloorAnnotator.tsx:226   - Found imageData: {imageIndex: 1, imageUrl: 'https://storage.googleapis.com/real-estate-vis-man…BtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D', angle: 17.142857142857142}
+FloorAnnotator.tsx:227   - Returning imageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D
+FloorAnnotator.tsx:208 🔍 getCurrentImageUrl Debug:
+FloorAnnotator.tsx:209   - selectedImageType: imageNumber
+FloorAnnotator.tsx:210   - selectedImageNumber: 10
+FloorAnnotator.tsx:211   - topViewImageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-20%20-%20Copie.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=7EeanMWRfkXbShpyOORbZSy%2Bt1lv5cuUltDT77biQVTuA7LJFr1Rd%2FnJhdYwGjawZYNZ9dQ0yvCWfPmsZzh3lY5iy%2BMbUrF6Dyr5OtLGPydOTBtljLom%2B2ylgKk8VNZi2VoHW83OwyW0Il%2Fnt0xtgU4lcPmN5bi1cZ9ynyKdDlIrI%2FsIL8HfRiRFNrcmaSzGp7I4aGsh8gIHF15UO1GwTwrctSXTqLCRd2aBZyeuWJfZJ7cNN7spVDIiOmzEhwNgDKQzR1j%2FDWJmSopASo3sjHujd6Wx6eHg49b7TMtCf%2FKINqMousis7pKuHGZpVT3HiJYdCT63yRKpiVmqkbBFqQ%3D%3D
+FloorAnnotator.tsx:212   - floorImages: (20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-1.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=1kFWV9D9v6Wyr%2FxOdrNgNXAdEg7OsvSeJNlW7QowJJCwH3F0%2F%2F8%2FfmcQEW5SwNGCAx8qtFon5xgMXXpBMcA77LOUwSHqS5401FnDL3fJLx0Mdb1ZCNRQ8seHN7lvRhf249XxnjefcwRGzj1jamQz7l6XaZKcm5YgIbCpiu3FxFWBDcEx5Mdpckk6MIaKdjGcWUU%2FCE%2FvE%2FLI1ovmi9pTi09h634%2B5urP58zkeYrdwNoEQRT6QoOKZxQRXc67J8bVO9EUXW501Mzl0RclDKK9uQXN5s1kTJ1P7zpkZvcm6zTEwnFX80bbxtPa3blfBruck%2FCQJZJ%2Fu02SymQEyQqwPw%3D%3D extracted number: 1
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-2.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=pzFFfSe8bUu7P10p7ogVHR%2F9tLLHRr5SPUj7pAn7wPokT%2Ba0M%2BM15Xjq6DM3o1EYF%2FuIGo%2FaRfqotO2vq8ckrjmIvHmQ%2BXf7ol7TE68LQxvhLNtOz8Wmr39PruShcim4nmkl2dnRkvd4WjZnnKg4jm23061OE%2BtRK2%2BcEpWVaADWTT15vjTd9f69mLkSM9akGsCRKBEfiJeaueepFhr4WN%2Fkpcx2hVb42GaoZoLNj3nwYw%2F%2BfPoNDDTpBtbbciwFbAoRLenDfnrhDnIk%2BX3n11zDginCFFHB7wykz2DTkU0mdNBlVbmebyT5tiKUA4pra2oKanDTorBBqtsiGruKGQ%3D%3D extracted number: 2
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-3.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=mEochqOf9eCvEAFLKhXQBqOAKe9rurDmY%2F7T2ZpfVt1Grkw4TxydTOxiI2VV%2BeA2QOVmvC9Lk1u9j6gGiFEomq8U72wkQB3lL2tJ%2BcIIg30%2F7zFEjWL9OL1IIQzcZaDcsdl9UiYA245DCKt3dWQjxSTDK1D7U3k3llVFtRFVMec74AXjbDub1frbjCsEDM6HBKy1nOiJXcFmkj3PbAjL0eoivvRPCoI9KecJbsOIAO511ZQoo2HuMO77jONo1KizZPrzgJdNpxMS569eSJ4jrYDBp0%2BK83a0nQ7NG7HzTKxv9OUYHG2zrpeixhiOjSGaQnc8sivN7WUeUafotbf8yg%3D%3D extracted number: 3
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-4.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=yeMUb10Mt0MxffHKhvKHBQ%2Be5rfkBg9G6IXahzGN3mzACjdyWXt8IhU7KTvEUZyjNq7VWqh2YTj%2BaOSG0r0msKzKZLpDp4rMnqh2SYYJdTF%2BczVMXSYEi7jH6TyHLmTDKdehAPAmbc3ClHOCeK%2Bn14ajFCfz2dU6xrtQn4aGgP6YGDYyuPZ6kWR6jjKvR9Bc1CyJUBoh3V9T4VeJ20mDtfWBlZrH%2Fv1vNcgjtB6z6NffirEL0avnEdKP1mbGzZPiNRqouuMlQDXQGbXir%2Bq0C9wulV7VuL6HmwN2YZPr3cTMFaC6sQ9AujN10t2fAi5EUY43zrJeUTWnPxbLvDvebw%3D%3D extracted number: 4
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-5.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=xZotTpuwyAoRr24cDewwu86h%2F8qmFa3j2E5izff93GPR4uDLj1qhqpCQVRBeFB6ofWbpokoet9ol7QVcnrtCiEUCtJHdG5ObNcvyqRgcNmcBbmDkWCGootaLsq60F2MoUYQeR90LYYSJg9rfHC2yPA%2FEAQWt7rRPMt9wg05J9ICNz2Qrh9OC0kylVXemRW9eDa3PfWpnIZoqtPSqLy2d8PLyXHtdVtjpbFJ%2Fm8dMyKkaS%2FcuqrOnkV8DdRyao5qC7NMe2fVM%2F4Dgqya3vTJl5euX6qvhnAvOln5XIRsoJRKh3jLXlGFah4Se7I8v%2BXzajuppvNWThCZOcdXopOWeJQ%3D%3D extracted number: 5
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-6.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=x5owrW8qMAdk5UiqB3wba5pYTAputSBudfULdOxIEMSxYipIsDMe8abd0kI92PbCxG7MaEgP2ZpAT7P%2BbNzpZC3j0dKO159M0teNdDpuZq69hmWX81wXxzUSRue4fQN0nIyvlIBMUx57OeLszdfeGX5xm06jft4M5zlRW1KrMhwVH6dz1y07Wx18WtlHTw0SfZXDh2rqsVxIiP1dItytcoWAdthmQmwsjv6Z%2FONf2Qi238rM%2FRCWeZHR3GAjsk4XysE7E8eULObO1pi7oaCZfRaguCjTCxEJPYg4OzTYz%2BUCmOHyNwyIixlrgdxWcY0Evd5kjymH4wHx2uW00MsGEQ%3D%3D extracted number: 6
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-7.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=T0HPnJ0S8GVNTDEEhzhR44%2BQXrFsH%2BapiIclJaCe59ij%2FeIidExbApEdPURNgMkMPsn5yI6OdEIqbLKWZZTTAWt068mmNe7Qou1u5wXZtRHgTTwmKIzjK7m8MqNtngkjEnK8qhnGe7j7D5xM0%2BDcMy%2Fec3AFQUE5pmIuUethOp518qYWGwGDeQ2McIX4XY%2BLCBTHRj4njyq3iRM4gUIyEhWcjyZKUQCbXEIH0%2B0rqsusPPanCjC%2FfAzGiIuRzqXV3prumwsTtkx4C0G8KvTpUNaAYVagR6r36d18mZLsqjhsuy3IqtkJ1UxeQS4YLNz6x4Eitx%2F378TjRPYHWjilUg%3D%3D extracted number: 7
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-8.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=f9eT5rMv7GNLWYIOtQegMyQs4vy4rWW%2BLInUSMNG4ZU10vjko58ULSQtZYSUVRLb3uWzm0NYGpTUk61B7sRJ0%2Bo9xOeNMhhs7FV54sglG2PLRw4ork3DIO41uiOU60KCDgndvcNyRmzRXnC2TN5mgtVUjdk46lMEMbpgKwHhf7gJ%2BF3GZvdRBlJrmnTKmIJh9AWPk2EWQ4AxVRtoWWoDLR4qIc9vbBQmg2zoDIcXzJ9YcF4LihG6gfBXovkwgcBisYOAD0jh643BmeiWmiQ9t0vxIodNd%2FIMoL8%2FbTXtn%2BLa4b6YwSXJKUgAGmsSOBNhnR5IsvaNWJ0oKip8%2FytTwQ%3D%3D extracted number: 8
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-9.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=LwhI5iKjgdWnSNfebw7GG9I4hz9YncuToDc9VsP2MA3JNllELkNRLtG3395UoGS69SiEkHA%2FYBfgyuwrEeaUqP8wR3kc67wDqKs%2BA5DZ5DtrakRDUYgWdE7edeRU1GoObMdNW%2BndwFsytgPiB9X6dvVv%2BMm2mt9dWr9924%2F8UE1jYOFl8De0ZqkAWnYk8jv4TMHTy46Cz4%2FLYhkCt3z52QbR6jnrcLOHOEOvKtB2n0Y%2BV3skZudWfchWo10W05d8PQoIuvrsFOCDeqsGVfb%2BuulXkeRvUEd%2FgRGIAgKeKMQBPS3WL0wUHjrLyNDWK4pgm9BRLj5e3wfXu0ZkNMRt1g%3D%3D extracted number: 9
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D extracted number: 10
+FloorAnnotator.tsx:226   - Found imageData: {imageIndex: 1, imageUrl: 'https://storage.googleapis.com/real-estate-vis-man…BtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D', angle: 17.142857142857142}
+FloorAnnotator.tsx:227   - Returning imageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D
+FloorAnnotator.tsx:208 🔍 getCurrentImageUrl Debug:
+FloorAnnotator.tsx:209   - selectedImageType: imageNumber
+FloorAnnotator.tsx:210   - selectedImageNumber: 10
+FloorAnnotator.tsx:211   - topViewImageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-20%20-%20Copie.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=7EeanMWRfkXbShpyOORbZSy%2Bt1lv5cuUltDT77biQVTuA7LJFr1Rd%2FnJhdYwGjawZYNZ9dQ0yvCWfPmsZzh3lY5iy%2BMbUrF6Dyr5OtLGPydOTBtljLom%2B2ylgKk8VNZi2VoHW83OwyW0Il%2Fnt0xtgU4lcPmN5bi1cZ9ynyKdDlIrI%2FsIL8HfRiRFNrcmaSzGp7I4aGsh8gIHF15UO1GwTwrctSXTqLCRd2aBZyeuWJfZJ7cNN7spVDIiOmzEhwNgDKQzR1j%2FDWJmSopASo3sjHujd6Wx6eHg49b7TMtCf%2FKINqMousis7pKuHGZpVT3HiJYdCT63yRKpiVmqkbBFqQ%3D%3D
+FloorAnnotator.tsx:212   - floorImages: (20) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-1.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=1kFWV9D9v6Wyr%2FxOdrNgNXAdEg7OsvSeJNlW7QowJJCwH3F0%2F%2F8%2FfmcQEW5SwNGCAx8qtFon5xgMXXpBMcA77LOUwSHqS5401FnDL3fJLx0Mdb1ZCNRQ8seHN7lvRhf249XxnjefcwRGzj1jamQz7l6XaZKcm5YgIbCpiu3FxFWBDcEx5Mdpckk6MIaKdjGcWUU%2FCE%2FvE%2FLI1ovmi9pTi09h634%2B5urP58zkeYrdwNoEQRT6QoOKZxQRXc67J8bVO9EUXW501Mzl0RclDKK9uQXN5s1kTJ1P7zpkZvcm6zTEwnFX80bbxtPa3blfBruck%2FCQJZJ%2Fu02SymQEyQqwPw%3D%3D extracted number: 1
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-2.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=pzFFfSe8bUu7P10p7ogVHR%2F9tLLHRr5SPUj7pAn7wPokT%2Ba0M%2BM15Xjq6DM3o1EYF%2FuIGo%2FaRfqotO2vq8ckrjmIvHmQ%2BXf7ol7TE68LQxvhLNtOz8Wmr39PruShcim4nmkl2dnRkvd4WjZnnKg4jm23061OE%2BtRK2%2BcEpWVaADWTT15vjTd9f69mLkSM9akGsCRKBEfiJeaueepFhr4WN%2Fkpcx2hVb42GaoZoLNj3nwYw%2F%2BfPoNDDTpBtbbciwFbAoRLenDfnrhDnIk%2BX3n11zDginCFFHB7wykz2DTkU0mdNBlVbmebyT5tiKUA4pra2oKanDTorBBqtsiGruKGQ%3D%3D extracted number: 2
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-3.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=mEochqOf9eCvEAFLKhXQBqOAKe9rurDmY%2F7T2ZpfVt1Grkw4TxydTOxiI2VV%2BeA2QOVmvC9Lk1u9j6gGiFEomq8U72wkQB3lL2tJ%2BcIIg30%2F7zFEjWL9OL1IIQzcZaDcsdl9UiYA245DCKt3dWQjxSTDK1D7U3k3llVFtRFVMec74AXjbDub1frbjCsEDM6HBKy1nOiJXcFmkj3PbAjL0eoivvRPCoI9KecJbsOIAO511ZQoo2HuMO77jONo1KizZPrzgJdNpxMS569eSJ4jrYDBp0%2BK83a0nQ7NG7HzTKxv9OUYHG2zrpeixhiOjSGaQnc8sivN7WUeUafotbf8yg%3D%3D extracted number: 3
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-4.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=yeMUb10Mt0MxffHKhvKHBQ%2Be5rfkBg9G6IXahzGN3mzACjdyWXt8IhU7KTvEUZyjNq7VWqh2YTj%2BaOSG0r0msKzKZLpDp4rMnqh2SYYJdTF%2BczVMXSYEi7jH6TyHLmTDKdehAPAmbc3ClHOCeK%2Bn14ajFCfz2dU6xrtQn4aGgP6YGDYyuPZ6kWR6jjKvR9Bc1CyJUBoh3V9T4VeJ20mDtfWBlZrH%2Fv1vNcgjtB6z6NffirEL0avnEdKP1mbGzZPiNRqouuMlQDXQGbXir%2Bq0C9wulV7VuL6HmwN2YZPr3cTMFaC6sQ9AujN10t2fAi5EUY43zrJeUTWnPxbLvDvebw%3D%3D extracted number: 4
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-5.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=xZotTpuwyAoRr24cDewwu86h%2F8qmFa3j2E5izff93GPR4uDLj1qhqpCQVRBeFB6ofWbpokoet9ol7QVcnrtCiEUCtJHdG5ObNcvyqRgcNmcBbmDkWCGootaLsq60F2MoUYQeR90LYYSJg9rfHC2yPA%2FEAQWt7rRPMt9wg05J9ICNz2Qrh9OC0kylVXemRW9eDa3PfWpnIZoqtPSqLy2d8PLyXHtdVtjpbFJ%2Fm8dMyKkaS%2FcuqrOnkV8DdRyao5qC7NMe2fVM%2F4Dgqya3vTJl5euX6qvhnAvOln5XIRsoJRKh3jLXlGFah4Se7I8v%2BXzajuppvNWThCZOcdXopOWeJQ%3D%3D extracted number: 5
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-6.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=x5owrW8qMAdk5UiqB3wba5pYTAputSBudfULdOxIEMSxYipIsDMe8abd0kI92PbCxG7MaEgP2ZpAT7P%2BbNzpZC3j0dKO159M0teNdDpuZq69hmWX81wXxzUSRue4fQN0nIyvlIBMUx57OeLszdfeGX5xm06jft4M5zlRW1KrMhwVH6dz1y07Wx18WtlHTw0SfZXDh2rqsVxIiP1dItytcoWAdthmQmwsjv6Z%2FONf2Qi238rM%2FRCWeZHR3GAjsk4XysE7E8eULObO1pi7oaCZfRaguCjTCxEJPYg4OzTYz%2BUCmOHyNwyIixlrgdxWcY0Evd5kjymH4wHx2uW00MsGEQ%3D%3D extracted number: 6
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-7.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=T0HPnJ0S8GVNTDEEhzhR44%2BQXrFsH%2BapiIclJaCe59ij%2FeIidExbApEdPURNgMkMPsn5yI6OdEIqbLKWZZTTAWt068mmNe7Qou1u5wXZtRHgTTwmKIzjK7m8MqNtngkjEnK8qhnGe7j7D5xM0%2BDcMy%2Fec3AFQUE5pmIuUethOp518qYWGwGDeQ2McIX4XY%2BLCBTHRj4njyq3iRM4gUIyEhWcjyZKUQCbXEIH0%2B0rqsusPPanCjC%2FfAzGiIuRzqXV3prumwsTtkx4C0G8KvTpUNaAYVagR6r36d18mZLsqjhsuy3IqtkJ1UxeQS4YLNz6x4Eitx%2F378TjRPYHWjilUg%3D%3D extracted number: 7
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-8.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=f9eT5rMv7GNLWYIOtQegMyQs4vy4rWW%2BLInUSMNG4ZU10vjko58ULSQtZYSUVRLb3uWzm0NYGpTUk61B7sRJ0%2Bo9xOeNMhhs7FV54sglG2PLRw4ork3DIO41uiOU60KCDgndvcNyRmzRXnC2TN5mgtVUjdk46lMEMbpgKwHhf7gJ%2BF3GZvdRBlJrmnTKmIJh9AWPk2EWQ4AxVRtoWWoDLR4qIc9vbBQmg2zoDIcXzJ9YcF4LihG6gfBXovkwgcBisYOAD0jh643BmeiWmiQ9t0vxIodNd%2FIMoL8%2FbTXtn%2BLa4b6YwSXJKUgAGmsSOBNhnR5IsvaNWJ0oKip8%2FytTwQ%3D%3D extracted number: 8
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-9.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469131&Signature=LwhI5iKjgdWnSNfebw7GG9I4hz9YncuToDc9VsP2MA3JNllELkNRLtG3395UoGS69SiEkHA%2FYBfgyuwrEeaUqP8wR3kc67wDqKs%2BA5DZ5DtrakRDUYgWdE7edeRU1GoObMdNW%2BndwFsytgPiB9X6dvVv%2BMm2mt9dWr9924%2F8UE1jYOFl8De0ZqkAWnYk8jv4TMHTy46Cz4%2FLYhkCt3z52QbR6jnrcLOHOEOvKtB2n0Y%2BV3skZudWfchWo10W05d8PQoIuvrsFOCDeqsGVfb%2BuulXkeRvUEd%2FgRGIAgKeKMQBPS3WL0wUHjrLyNDWK4pgm9BRLj5e3wfXu0ZkNMRt1g%3D%3D extracted number: 9
+FloorAnnotator.tsx:223   - Checking image: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D extracted number: 10
+FloorAnnotator.tsx:226   - Found imageData: {imageIndex: 1, imageUrl: 'https://storage.googleapis.com/real-estate-vis-man…BtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D', angle: 17.142857142857142}
+FloorAnnotator.tsx:227   - Returning imageUrl: https://storage.googleapis.com/real-estate-vis-management-sys.firebasestorage.app/floors/ayYzqJg4Pf1NQVLfXinf/ground-floor-10.png?GoogleAccessId=firebase-adminsdk-fbsvc@real-estate-vis-management-sys.iam.gserviceaccount.com&Expires=1756469130&Signature=zw%2B71GI1OSzEdj7Rr0yH%2FK98CTIjEFrE%2F%2BEIjeN5GXNIgG4YpVAwWfZkTknpTfEl%2BKkhaOqPHbyza0awzmG0VkhIvvArT6xuJk10clFrSC0JHD68TttndzOoFscYuKZnNn5L2xHczRDINZEGTq1PhxdXkKNSH3dRr%2BD%2FsR5HKbkOOwQwpHl0EXTeNWJkHJVQpmIgN8LSrLoVov1DYW1I6IYHTroMaIgLdgca%2F9mlO5hHpbyyUl4WRmHqkF%2FCJ6VSnUgvtMHn7o1n29Cr5JeQYtrWY2wEE%2F8rFPWqfMX7Ae2rHBtJFgHSGgjy4VZ%2BuuF8Z62fTih5k22LCeTi2pXtXQ%3D%3D
+AuthContext.tsx:46  POST https://firestore.googleapis.com/google.firestore.v1.Firestore/Listen/channel?VER=8&database=projects%2Freal-estate-vis-management-sys%2Fdatabases%2F(default)&gsessionid=ZlXdQ7YuUTC1Va_Ao2lFmSQ6OGtt2wmjAUyTFtYtWeU&SID=ppkzs2uwgsP8bUio5SrhJQ&RID=77023&TYPE=terminate&zx=1uagwcobh8lo net::ERR_BLOCKED_BY_CLIENT
+gc @ firebase_firestore.js?v=653ce26e:2147
+Y2.close @ firebase_firestore.js?v=653ce26e:2491
+Xo @ firebase_firestore.js?v=653ce26e:12571
+close @ firebase_firestore.js?v=653ce26e:12457
+close @ firebase_firestore.js?v=653ce26e:12824
+q_ @ firebase_firestore.js?v=653ce26e:12782
+(anonymous) @ firebase_firestore.js?v=653ce26e:12773
+(anonymous) @ firebase_firestore.js?v=653ce26e:13475
+(anonymous) @ firebase_firestore.js?v=653ce26e:15918
+(anonymous) @ firebase_firestore.js?v=653ce26e:15949
+Promise.then
+_c @ firebase_firestore.js?v=653ce26e:15949
+enqueue @ firebase_firestore.js?v=653ce26e:15918
+enqueueAndForget @ firebase_firestore.js?v=653ce26e:15900
+handleDelayElapsed @ firebase_firestore.js?v=653ce26e:13475
+(anonymous) @ firebase_firestore.js?v=653ce26e:13455
+setTimeout
+start @ firebase_firestore.js?v=653ce26e:13455
+createAndSchedule @ firebase_firestore.js?v=653ce26e:13448
+enqueueAfterDelay @ firebase_firestore.js?v=653ce26e:15958
+k_ @ firebase_firestore.js?v=653ce26e:12773
+__PRIVATE_remoteStoreUnlisten @ firebase_firestore.js?v=653ce26e:13172
+(anonymous) @ firebase_firestore.js?v=653ce26e:14265
+Promise.then
+__PRIVATE_syncEngineUnlisten @ firebase_firestore.js?v=653ce26e:14264
+__PRIVATE_eventManagerUnlisten @ firebase_firestore.js?v=653ce26e:13711
+(anonymous) @ firebase_firestore.js?v=653ce26e:15399
+(anonymous) @ firebase_firestore.js?v=653ce26e:15918
+(anonymous) @ firebase_firestore.js?v=653ce26e:15949
+Promise.then
+_c @ firebase_firestore.js?v=653ce26e:15949
+enqueue @ firebase_firestore.js?v=653ce26e:15918
+enqueueAndForget @ firebase_firestore.js?v=653ce26e:15900
+next @ firebase_firestore.js?v=653ce26e:15399
+(anonymous) @ firebase_firestore.js?v=653ce26e:14957
+setTimeout
+Mu @ firebase_firestore.js?v=653ce26e:14956
+next @ firebase_firestore.js?v=653ce26e:14947
+qa @ firebase_firestore.js?v=653ce26e:13809
+Ma @ firebase_firestore.js?v=653ce26e:13786
+__PRIVATE_eventManagerOnWatchChange @ firebase_firestore.js?v=653ce26e:13734
+__PRIVATE_syncEngineEmitNewSnapsAndNotifyLocalStore @ firebase_firestore.js?v=653ce26e:14495
+await in __PRIVATE_syncEngineEmitNewSnapsAndNotifyLocalStore
+__PRIVATE_syncEngineApplyRemoteEvent @ firebase_firestore.js?v=653ce26e:14332
+await in __PRIVATE_syncEngineApplyRemoteEvent
+__PRIVATE_raiseWatchSnapshot @ firebase_firestore.js?v=653ce26e:13273
+__PRIVATE_onWatchStreamChange @ firebase_firestore.js?v=653ce26e:13274
+await in __PRIVATE_onWatchStreamChange
+onNext @ firebase_firestore.js?v=653ce26e:12900
+(anonymous) @ firebase_firestore.js?v=653ce26e:12859
+(anonymous) @ firebase_firestore.js?v=653ce26e:12879
+(anonymous) @ firebase_firestore.js?v=653ce26e:15918
+(anonymous) @ firebase_firestore.js?v=653ce26e:15949
+Promise.then
+_c @ firebase_firestore.js?v=653ce26e:15949
+enqueue @ firebase_firestore.js?v=653ce26e:15918
+enqueueAndForget @ firebase_firestore.js?v=653ce26e:15900
+(anonymous) @ firebase_firestore.js?v=653ce26e:12879
+(anonymous) @ firebase_firestore.js?v=653ce26e:12859
+c_ @ firebase_firestore.js?v=653ce26e:12472
+(anonymous) @ firebase_firestore.js?v=653ce26e:12612
+(anonymous) @ firebase_firestore.js?v=653ce26e:12575
+ab @ firebase_firestore.js?v=653ce26e:950
+F2 @ firebase_firestore.js?v=653ce26e:920
+Z2.ta @ firebase_firestore.js?v=653ce26e:2540
+Rb @ firebase_firestore.js?v=653ce26e:1419
+M2.Y @ firebase_firestore.js?v=653ce26e:1284
+M2.ca @ firebase_firestore.js?v=653ce26e:1215
+ab @ firebase_firestore.js?v=653ce26e:950
+F2 @ firebase_firestore.js?v=653ce26e:920
+Wc @ firebase_firestore.js?v=653ce26e:1954
+h.bb @ firebase_firestore.js?v=653ce26e:1949
+h.Ea @ firebase_firestore.js?v=653ce26e:1946
+Lc @ firebase_firestore.js?v=653ce26e:1846
+h.Pa @ firebase_firestore.js?v=653ce26e:1813
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Pa @ firebase_firestore.js?v=653ce26e:1814
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Sa @ firebase_firestore.js?v=653ce26e:1800
+Promise.then
+h.send @ firebase_firestore.js?v=653ce26e:1781
+h.ea @ firebase_firestore.js?v=653ce26e:1922
+Jb @ firebase_firestore.js?v=653ce26e:1208
+fd @ firebase_firestore.js?v=653ce26e:2341
+h.Fa @ firebase_firestore.js?v=653ce26e:2308
+Da @ firebase_firestore.js?v=653ce26e:669
+Promise.then
+x2 @ firebase_firestore.js?v=653ce26e:663
+ec @ firebase_firestore.js?v=653ce26e:2294
+Rb @ firebase_firestore.js?v=653ce26e:1416
+M2.Y @ firebase_firestore.js?v=653ce26e:1284
+M2.ca @ firebase_firestore.js?v=653ce26e:1215
+ab @ firebase_firestore.js?v=653ce26e:950
+F2 @ firebase_firestore.js?v=653ce26e:920
+Wc @ firebase_firestore.js?v=653ce26e:1954
+h.bb @ firebase_firestore.js?v=653ce26e:1949
+h.Ea @ firebase_firestore.js?v=653ce26e:1946
+Lc @ firebase_firestore.js?v=653ce26e:1846
+h.Pa @ firebase_firestore.js?v=653ce26e:1813
+Promise.then
+Nc @ firebase_firestore.js?v=653ce26e:1804
+h.Sa @ firebase_firestore.js?v=653ce26e:1800
+Promise.then
+h.send @ firebase_firestore.js?v=653ce26e:1781
+h.ea @ firebase_firestore.js?v=653ce26e:1922
+Jb @ firebase_firestore.js?v=653ce26e:1203
+Hb @ firebase_firestore.js?v=653ce26e:1178
+h.Ga @ firebase_firestore.js?v=653ce26e:2228
+Da @ firebase_firestore.js?v=653ce26e:669
+Promise.then
+x2 @ firebase_firestore.js?v=653ce26e:663
+fc @ firebase_firestore.js?v=653ce26e:2172
+h.connect @ firebase_firestore.js?v=653ce26e:2132
+Y2.m @ firebase_firestore.js?v=653ce26e:2488
+Zo @ firebase_firestore.js?v=653ce26e:12569
+send @ firebase_firestore.js?v=653ce26e:12460
+Q_ @ firebase_firestore.js?v=653ce26e:12777
+Z_ @ firebase_firestore.js?v=653ce26e:12929
+__PRIVATE_sendWatchRequest @ firebase_firestore.js?v=653ce26e:13185
+(anonymous) @ firebase_firestore.js?v=653ce26e:13214
+__PRIVATE_onWatchStreamOpen @ firebase_firestore.js?v=653ce26e:13213
+(anonymous) @ firebase_firestore.js?v=653ce26e:12855
+(anonymous) @ firebase_firestore.js?v=653ce26e:12879
+(anonymous) @ firebase_firestore.js?v=653ce26e:15918
+(anonymous) @ firebase_firestore.js?v=653ce26e:15949
+Promise.then
+_c @ firebase_firestore.js?v=653ce26e:15949
+enqueue @ firebase_firestore.js?v=653ce26e:15918
+enqueueAndForget @ firebase_firestore.js?v=653ce26e:15900
+(anonymous) @ firebase_firestore.js?v=653ce26e:12879
+(anonymous) @ firebase_firestore.js?v=653ce26e:12855
+a_ @ firebase_firestore.js?v=653ce26e:12466
+(anonymous) @ firebase_firestore.js?v=653ce26e:12617
+setTimeout
+I_ @ firebase_firestore.js?v=653ce26e:12616
+H_ @ firebase_firestore.js?v=653ce26e:12888
+z_ @ firebase_firestore.js?v=653ce26e:12852
+(anonymous) @ firebase_firestore.js?v=653ce26e:12842
+Promise.then
+auth @ firebase_firestore.js?v=653ce26e:12838
+start @ firebase_firestore.js?v=653ce26e:12737
+__PRIVATE_startWatchStream @ firebase_firestore.js?v=653ce26e:13195
+__PRIVATE_remoteStoreListen @ firebase_firestore.js?v=653ce26e:13167
+__PRIVATE_allocateTargetAndMaybeListen @ firebase_firestore.js?v=653ce26e:14216
+await in __PRIVATE_allocateTargetAndMaybeListen
+__PRIVATE_syncEngineListen @ firebase_firestore.js?v=653ce26e:14194
+__PRIVATE_eventManagerListen @ firebase_firestore.js?v=653ce26e:13675
+__PRIVATE_readDocumentViaSnapshotListener @ firebase_firestore.js?v=653ce26e:15370
+(anonymous) @ firebase_firestore.js?v=653ce26e:15371
+await in (anonymous)
+(anonymous) @ firebase_firestore.js?v=653ce26e:15918
+(anonymous) @ firebase_firestore.js?v=653ce26e:15949
+Promise.then
+_c @ firebase_firestore.js?v=653ce26e:15949
+enqueue @ firebase_firestore.js?v=653ce26e:15918
+enqueueAndForget @ firebase_firestore.js?v=653ce26e:15900
+__PRIVATE_firestoreClientGetDocumentViaSnapshotListener @ firebase_firestore.js?v=653ce26e:15349
+getDoc @ firebase_firestore.js?v=653ce26e:17556
+(anonymous) @ AuthContext.tsx:46
+(anonymous) @ chunk-WD64COPP.js?v=653ce26e:746
+(anonymous) @ chunk-WD64COPP.js?v=653ce26e:838
+Promise.then
+sendOne @ chunk-WD64COPP.js?v=653ce26e:835
+forEachObserver @ chunk-WD64COPP.js?v=653ce26e:828
+next @ chunk-WD64COPP.js?v=653ce26e:745
+notifyAuthListeners @ firebase_auth.js?v=653ce26e:2734
+(anonymous) @ firebase_auth.js?v=653ce26e:2543
+FloorAnnotator.tsx:175 🔍 Saving hotspots debug:
+FloorAnnotator.tsx:176   - selectedImageType: imageNumber
+FloorAnnotator.tsx:177   - selectedImageNumber: 10
+FloorAnnotator.tsx:178   - hotspots: (2) [{…}, {…}]
+FloorAnnotator.tsx:184   - Saving as angleHotspots with key: 10
+FloorAnnotator.tsx:187   - Updated angleHotspots: {0: Array(2), 10: Array(2), 14: Array(2), 15: Array(2), 17: Array(2), 34: Array(1)})
+
+and i cheked if the newly created hotspot shows up: it dosenet show up 
+here is a patf of my console :
+i think it conffirms the index mismatch:
+ex 10 → Image 11 (ground-floor-11.png)
+FloorImageViewer.tsx:114   Index 11 → Image 12 (ground-floor-12.png)
+FloorImageViewer.tsx:114   Index 12 → Image 13 (ground-floor-13.png)
+FloorImageViewer.tsx:114   Index 13 → Image 14 (ground-floor-14.png)
+FloorImageViewer.tsx:114   Index 14 → Image 15 (ground-floor-15.png)
+FloorImageViewer.tsx:114   Index 15 → Image 16 (ground-floor-16.png)
+FloorImageViewer.tsx:114   Index 16 → Image 17 (ground-floor-17.png)
+FloorImageViewer.tsx:114   Index 17 → Image 18 (ground-floor-18.png)
+FloorImageViewer.tsx:114   Index 18 → Image 19 (ground-floor-19.png)
+FloorImageViewer.tsx:114   Index 19 → Image 20 (ground-floor-20.png)
+FloorImageViewer.tsx:127 🔍 Hotspot Debug - isTopView: 
+
+

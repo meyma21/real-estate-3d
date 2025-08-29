@@ -1,0 +1,15 @@
+// RÈGLES TEMPORAIRES POUR TEST - À REMPLACER APRÈS
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // TEMPORAIRE: Accès public total pour test
+    match /{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}
+
+// ATTENTION: Ces règles sont très permissives !
+// À utiliser UNIQUEMENT pour tester le chargement des modèles 3D
+// Remplacer par les règles sécurisées après le test 

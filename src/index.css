@@ -1,0 +1,439 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #475569;
+  --primary-light: #64748b;
+  --primary-dark: #334155;
+  --accent: #14b8a6;
+  --accent-light: #2dd4bf;
+  --accent-dark: #0d9488;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --background: #f8fafc;
+  --text: #0f172a;
+  --text-light: #64748b;
+}
+
+/* Mobile-first responsive optimizations */
+@layer base {
+  html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    /* Mobile optimizations - but allow normal interactions */
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    /* Allow user selection and interactions */
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+    /* Allow normal scrolling */
+    overscroll-behavior: auto;
+    /* Allow normal touch actions */
+    touch-action: auto;
+  }
+  
+  /* Allow text selection for inputs and content areas */
+  input, textarea, [contenteditable] {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  
+  /* Optimize buttons for mobile touch */
+  button {
+    min-width: 44px;
+    min-height: 44px;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Optimize images for mobile */
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+  }
+
+  /* Optimize for hardware acceleration - but NOT on admin pages */
+  .hardware-accelerated {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Ensure admin layout has no problematic transforms */
+  .admin-layout,
+  .admin-layout *:not(.hardware-accelerated) {
+    -webkit-transform: none !important;
+    transform: none !important;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+  }
+}
+
+/* Mobile-specific responsive breakpoints */
+@layer utilities {
+  /* Small mobile (320px - 480px) */
+  @media (max-width: 480px) {
+    .text-responsive {
+      font-size: 0.875rem;
+    }
+    
+    .p-responsive {
+      padding: 0.75rem;
+  }
+
+    .m-responsive {
+      margin: 0.5rem;
+    }
+    
+    .gap-responsive {
+      gap: 0.5rem;
+    }
+  }
+  
+  /* Medium mobile (481px - 768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .text-responsive {
+      font-size: 1rem;
+    }
+    
+    .p-responsive {
+      padding: 1rem;
+    }
+    
+    .m-responsive {
+      margin: 0.75rem;
+    }
+    
+    .gap-responsive {
+      gap: 0.75rem;
+    }
+  }
+  
+  /* Tablet and up (769px+) */
+  @media (min-width: 769px) {
+    .text-responsive {
+      font-size: 1.125rem;
+    }
+    
+    .p-responsive {
+      padding: 1.5rem;
+    }
+    
+    .m-responsive {
+      margin: 1rem;
+    }
+    
+    .gap-responsive {
+      gap: 1rem;
+    }
+  }
+  
+  /* Touch-friendly utilities */
+  .touch-target {
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .touch-optimized {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .hardware-accelerated {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+  }
+  
+  /* Prevent overscroll on mobile */
+  .no-overscroll {
+    overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Safe area padding for notched devices */
+  .safe-area-top {
+    padding-top: env(safe-area-inset-top);
+  }
+  
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  .safe-area-left {
+    padding-left: env(safe-area-inset-left);
+  }
+
+  .safe-area-right {
+    padding-right: env(safe-area-inset-right);
+  }
+  
+  /* Mobile-specific animations */
+  .mobile-fade-in {
+    animation: mobileSlideUp 0.3s ease-out;
+  }
+  
+  @keyframes mobileSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Optimize modal for mobile */
+  .mobile-modal {
+    max-height: 90vh;
+    max-width: 95vw;
+    margin: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 480px) {
+    .mobile-modal {
+      max-height: 95vh;
+      max-width: 100vw;
+      margin: 0;
+      border-radius: 0;
+    }
+  }
+}
+
+/* Swiper mobile optimizations */
+.swiper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  }
+
+.swiper-slide {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* Optimize for iOS Safari */
+@supports (-webkit-touch-callout: none) {
+  .ios-optimized {
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Optimize for Android */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .android-optimized {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+/* High DPI display optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .high-dpi-optimized {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md transition-all duration-200 font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-slate-600 text-white hover:bg-slate-700 focus:ring-slate-500;
+  }
+
+  .btn-secondary {
+    @apply bg-teal-500 text-white hover:bg-teal-600 focus:ring-teal-400;
+  }
+
+  .btn-outline {
+    @apply border border-slate-300 text-slate-700 hover:bg-slate-50 focus:ring-slate-300;
+  }
+
+  .btn-danger {
+    @apply bg-red-500 text-white hover:bg-red-600 focus:ring-red-400;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-sm p-6;
+  }
+
+  .input {
+    @apply w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent;
+  }
+
+  .select {
+    @apply w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent appearance-none bg-no-repeat bg-[right_0.5rem_center];
+  }
+
+  .label {
+    @apply block text-sm font-medium text-slate-700 mb-1;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-available {
+    @apply bg-green-100 text-green-800;
+  }
+
+  .badge-sold {
+    @apply bg-red-100 text-red-800;
+  }
+
+  .badge-construction {
+    @apply bg-amber-100 text-amber-800;
+  }
+}
+
+/* Animated elements */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* 3D Viewer specific styles */
+.three-d-viewer {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+
+.floor-selector {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.apartment-popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Ensure admin pages are not affected by FloorImageViewer styles */
+body {
+  overflow: auto !important;
+  pointer-events: auto !important;
+  height: auto !important;
+}
+
+/* Force scrolling on html and body */
+html, body {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  height: auto !important;
+  position: relative !important;
+}
+
+/* Admin layout specific styles */
+.admin-layout {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+.admin-layout main {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: 100% !important;
+}
+
+.admin-layout * {
+  pointer-events: auto !important;
+}
+
+/* Ensure sidebar is clickable and properly positioned */
+aside {
+  pointer-events: auto !important;
+  z-index: 10 !important;
+}
+
+/* Remove problematic transforms on admin layout */
+.admin-layout,
+.admin-layout * {
+  -webkit-transform: none !important;
+  transform: none !important;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+}
+
+/* Ensure content can scroll naturally */
+.admin-layout .container {
+  height: auto !important;
+  min-height: 100% !important;
+}
+
+/* Fix any remaining scrolling issues */
+.admin-layout main > div {
+  min-height: 100% !important;
+  padding-bottom: 2rem !important;
+}
