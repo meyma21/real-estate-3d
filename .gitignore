@@ -23,3 +23,15 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Backend specific
+backend/target/
+backend/src/main/resources/firebase-service-account.json
+*.jar
+*.war
+*.ear
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
