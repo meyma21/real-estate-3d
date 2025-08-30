@@ -1,0 +1,3 @@
+[33m12dbbf5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Fix Dockerfile: Install Maven directly instead of using wrapper
+[33m4245914[m Add Railway configuration for monorepo deployment
+[33md25c4a0[m Remove sensitive files and update .gitignore for deployment

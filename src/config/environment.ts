@@ -6,7 +6,7 @@ export const config = {
   },
   // Production - Update this with your actual backend URL
   production: {
-    apiUrl: 'https://your-backend-url.onrender.com/api'
+    apiUrl: 'https://real-estate-3d-production.up.railway.app/api'
   }
 };
 
