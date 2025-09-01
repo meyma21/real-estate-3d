@@ -73,9 +73,9 @@ const App: React.FC = () => {
               <Route path="management/hotspots" element={<HotspotManagement />} />
             </Route>
             
-            {/* Redirect root to viewer */}
-            <Route path="/" element={<Navigate to="/viewer" replace />} />
-            <Route path="*" element={<Navigate to="/viewer" replace />} />
+            {/* Redirect root to viewer/floors */}
+            <Route path="/" element={<Navigate to="/viewer/floors" replace />} />
+            <Route path="*" element={<Navigate to="/viewer/floors" replace />} />
           </Routes>
         </Router>
       </DataProvider>

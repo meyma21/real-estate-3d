@@ -976,16 +976,16 @@ const FloorImageViewer: React.FC<FloorImageViewerProps> = ({ floorId, onApartmen
               spaceBetween={0}
               slidesPerView={1}
               speed={150}
-              allowTouchMove={false}
-              touchRatio={0}
-              threshold={100}
+              allowTouchMove={true}
+              touchRatio={1}
+              threshold={50}
               resistance={true}
-              resistanceRatio={1}
-              followFinger={false}
-              shortSwipes={false}
-              longSwipes={false}
-              longSwipesRatio={0.15}
-              longSwipesMs={80}
+              resistanceRatio={0.85}
+              followFinger={true}
+              shortSwipes={true}
+              longSwipes={true}
+              longSwipesRatio={0.3}
+              longSwipesMs={300}
               freeMode={false}
               centeredSlides={true}
               loop={!isZoomed}
@@ -1007,53 +1007,58 @@ const FloorImageViewer: React.FC<FloorImageViewerProps> = ({ floorId, onApartmen
                 bulletActiveClass: 'swiper-pagination-bullet-active-custom',
               }}
               keyboard={{
-                enabled: false,
+                enabled: true,
                 onlyInViewport: true,
               }}
               mousewheel={{
-                enabled: false,
+                enabled: true,
                 forceToAxis: true,
-                sensitivity: 0,
+                sensitivity: 1,
                 releaseOnEdges: true,
                 invert: false,
               }}
               breakpoints={{
                 320: {
-                  touchRatio: 0,
-                  threshold: 100,
-                  allowTouchMove: false,
+                  touchRatio: 1,
+                  threshold: 50,
+                  allowTouchMove: true,
                 },
                 480: {
-                  touchRatio: 0,
-                  threshold: 100,
-                  allowTouchMove: false,
+                  touchRatio: 1,
+                  threshold: 50,
+                  allowTouchMove: true,
                 },
                 768: {
-                  touchRatio: 0,
-                  threshold: 100,
-                  allowTouchMove: false,
+                  touchRatio: 1,
+                  threshold: 50,
+                  allowTouchMove: true,
                 },
                 1024: {
-                  touchRatio: 0,
-                  threshold: 100,
-                  allowTouchMove: false,
+                  touchRatio: 1,
+                  threshold: 50,
+                  allowTouchMove: true,
                 },
                 1200: {
-                  touchRatio: 0,
-                  threshold: 100,
-                  allowTouchMove: false,
+                  touchRatio: 1,
+                  threshold: 50,
+                  allowTouchMove: true,
                 },
               }}
               onSwiper={(swiper) => {
                 swiperRef.current = swiper;
                 
                 if (swiper.el) {
-                  swiper.el.style.touchAction = 'auto';
-                  // Find swiper wrapper and disable its pointer events
+                  // Enable touch scrolling for mobile
+                  swiper.el.style.touchAction = 'pan-y';
+                  swiper.el.style.overscrollBehavior = 'contain';
+                  
+                  // Enable pointer events for swiper wrapper
                   const swiperWrapper = swiper.el.querySelector('.swiper-wrapper');
                   if (swiperWrapper) {
-                    (swiperWrapper as HTMLElement).style.pointerEvents = 'none';
+                    (swiperWrapper as HTMLElement).style.pointerEvents = 'auto';
                   }
+                  
+                  // Disable text selection but keep touch scrolling
                   (swiper.el.style as any).webkitTouchCallout = 'none';
                   (swiper.el.style as any).webkitUserSelect = 'none';
                   swiper.el.style.userSelect = 'none';
