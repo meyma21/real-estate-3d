@@ -13,6 +13,37 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import './FloorImageViewer.css';
+import './mobile-scrolling-fix.css';
+
+// Add this mobile-specific CSS to ensure touch scrolling works
+const mobileTouchStyles = `
+  .floor-image-swiper {
+    touch-action: pan-y !important;
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior: contain !important;
+  }
+  
+  .floor-image-swiper .swiper-wrapper {
+    pointer-events: auto !important;
+    touch-action: pan-y !important;
+  }
+  
+  .floor-image-swiper .swiper-slide {
+    pointer-events: auto !important;
+    touch-action: pan-y !important;
+  }
+  
+  @media (max-width: 768px) {
+    .floor-image-swiper {
+      touch-action: pan-y !important;
+    }
+  }
+`;
+
+// Add this style tag to the component
+const MobileTouchFix: React.FC = () => (
+  <style dangerouslySetInnerHTML={{ __html: mobileTouchStyles }} />
+);
 
 interface FloorImageViewerProps {
   floorId: string;
@@ -1048,20 +1079,35 @@ const FloorImageViewer: React.FC<FloorImageViewerProps> = ({ floorId, onApartmen
                 swiperRef.current = swiper;
                 
                 if (swiper.el) {
-                  // Enable touch scrolling for mobile
+                  // Force enable touch scrolling for mobile
                   swiper.el.style.touchAction = 'pan-y';
                   swiper.el.style.overscrollBehavior = 'contain';
+                  (swiper.el.style as any).webkitOverflowScrolling = 'touch';
                   
-                  // Enable pointer events for swiper wrapper
+                  // Enable pointer events for swiper wrapper and slides
                   const swiperWrapper = swiper.el.querySelector('.swiper-wrapper');
                   if (swiperWrapper) {
                     (swiperWrapper as HTMLElement).style.pointerEvents = 'auto';
+                    (swiperWrapper as HTMLElement).style.touchAction = 'pan-y';
                   }
+                  
+                  // Enable pointer events for all slides
+                  const slides = swiper.el.querySelectorAll('.swiper-slide');
+                  slides.forEach((slide: any) => {
+                    slide.style.pointerEvents = 'auto';
+                    slide.style.touchAction = 'pan-y';
+                  });
                   
                   // Disable text selection but keep touch scrolling
                   (swiper.el.style as any).webkitTouchCallout = 'none';
                   (swiper.el.style as any).webkitUserSelect = 'none';
                   swiper.el.style.userSelect = 'none';
+                  
+                  // Force enable touch events
+                  swiper.allowTouchMove = true;
+                  (swiper as any).touchRatio = 1;
+                  
+                  console.log('🔧 Mobile touch fix applied to Swiper');
                 }
               }}
               onSlideChange={handleSlideChange}

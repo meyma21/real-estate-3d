@@ -1,0 +1,48 @@
+/* Mobile Scrolling Fix for FloorImageViewer */
+
+/* Ensure Swiper container allows touch scrolling */
+.floor-image-swiper {
+  touch-action: pan-y !important;
+  -webkit-overflow-scrolling: touch !important;
+  overscroll-behavior: contain !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+/* Enable pointer events for swiper wrapper */
+.floor-image-swiper .swiper-wrapper {
+  pointer-events: auto !important;
+  touch-action: pan-y !important;
+}
+
+/* Enable pointer events for swiper slides */
+.floor-image-swiper .swiper-slide {
+  pointer-events: auto !important;
+  touch-action: pan-y !important;
+}
+
+/* Mobile-specific touch handling */
+@media (max-width: 768px) {
+  .floor-image-swiper {
+    touch-action: pan-y !important;
+  }
+  
+  .floor-image-swiper .swiper-wrapper {
+    touch-action: pan-y !important;
+  }
+  
+  .floor-image-swiper .swiper-slide {
+    touch-action: pan-y !important;
+  }
+}
+
+/* Disable any conflicting touch handlers */
+.floor-image-swiper * {
+  touch-action: pan-y !important;
+}
+
+/* Ensure images don't interfere with touch */
+.floor-image-swiper img {
+  pointer-events: none !important;
+  touch-action: pan-y !important;
+}
