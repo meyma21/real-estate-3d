@@ -16,7 +16,7 @@ import Buyers from './pages/Buyers';
 
 // Viewer Pages
 import ThreeDViewer from './pages/ThreeDViewer';
-import FloorImageViewerPage from './pages/FloorImageViewer';
+import GlassFloorImageViewerPage from './pages/GlassFloorImageViewer';
 import FloorAnnotator from './pages/admin/FloorAnnotator';
 import AdminManagement from './pages/admin/AdminManagement';
 import ApartmentManagement from './pages/admin/ApartmentManagement';
@@ -44,8 +44,8 @@ const App: React.FC = () => {
             <Route path="/debug-storage" element={<DebugStorage />} />
             <Route path="/upload-files" element={<UploadFiles />} />
             <Route path="/viewer" element={<ThreeDViewer />} />
-            <Route path="/viewer/floors" element={<FloorImageViewerPage />} />
-            <Route path="/viewer/floors/:floorId" element={<FloorImageViewerPage />} />
+            <Route path="/viewer/floors" element={<GlassFloorImageViewerPage />} />
+            <Route path="/viewer/floors/:floorId" element={<GlassFloorImageViewerPage />} />
             <Route path="/viewer/gallery" element={<Gallery />} />
             <Route path="/viewer/location" element={<Location />} />
             <Route path="/viewer/contact" element={<Contact />} />

@@ -1,3 +1,6 @@
+/* Import Glass Morphism Styles */
+@import './styles/glass-morphism.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

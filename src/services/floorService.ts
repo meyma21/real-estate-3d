@@ -6,6 +6,7 @@ export interface FloorImageData {
   imageIndex: number;
   imageUrl: string;
   angle: number;
+  hotspots?: Hotspot[];
 }
 
 export interface Hotspot {
@@ -57,25 +58,45 @@ export const floorService = {
   // Get floor images (360° view images)
   getFloorImages: async (floorId: string): Promise<FloorImageData[]> => {
     try {
-      // Try to get from backend API first
-      const response = await api.get(`/floors/${floorId}/images`);
-      const imageUrls = response.data;
+      // Get both images and floor data (which contains hotspots)
+      const [imagesResponse, floorResponse] = await Promise.all([
+        api.get(`/floors/${floorId}/images`),
+        api.get(`/floors/${floorId}`)
+      ]);
+      
+      const imageUrls = imagesResponse.data;
+      const floor = floorResponse.data;
       
       if (imageUrls && imageUrls.length > 0) {
-        return imageUrls.map((url: string, index: number) => ({
-          imageIndex: index,
-          imageUrl: url,
-          angle: (index * 360) / imageUrls.length,
-        }));
+        return imageUrls.map((url: string, index: number) => {
+          // Get hotspots for this specific image index
+          let hotspots: Hotspot[] = [];
+          
+          // Check if there are angle-specific hotspots for this image
+          if (floor.angleHotspots && floor.angleHotspots[index.toString()]) {
+            hotspots = floor.angleHotspots[index.toString()];
+          }
+          // If no angle-specific hotspots, use top-view hotspots for all images
+          else if (floor.topViewHotspots && index === 0) {
+            hotspots = floor.topViewHotspots;
+          }
+          
+          return {
+            imageIndex: index,
+            imageUrl: url,
+            angle: (index * 360) / imageUrls.length,
+            hotspots: hotspots
+          };
+        });
       }
       
       // Fallback to Firebase Storage
       const floorImageUrls = await storageService.getFloorImages(floorId);
       if (floorImageUrls && floorImageUrls.length > 0) {
-        return floorImageUrls.map((url, index) => ({
-          imageIndex: index,
+        return floorImageUrls.map((url, imgIndex) => ({
+          imageIndex: imgIndex,
           imageUrl: url,
-          angle: (index * 360) / floorImageUrls.length,
+          angle: (imgIndex * 360) / floorImageUrls.length,
         }));
       }
       
