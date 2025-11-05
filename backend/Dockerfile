@@ -1,25 +1,32 @@
-FROM openjdk:17-jdk-slim
+###########
+# Builder #
+###########
+FROM maven:3.9.9-eclipse-temurin-17 AS build
 
 WORKDIR /app
 
-# Install Maven
-RUN apt-get update && apt-get install -y maven && rm -rf /var/lib/apt/lists/*
-
-# Copy pom.xml first for better caching
+# Copy pom and download dependencies
 COPY pom.xml ./
+RUN mvn -q -B -e -DskipTests dependency:go-offline
 
-# Download dependencies
-RUN mvn dependency:go-offline -B
-
-# Copy source code
+# Copy source code and build
 COPY src ./src
+RUN mvn -q -B -DskipTests clean package
 
-# Build the application
-RUN mvn clean package -DskipTests
+############
+# Runtime  #
+############
+FROM eclipse-temurin:17-jre-jammy AS runtime
 
+WORKDIR /app
 
-# Expose port
+# Copy fat jar from builder
+COPY --from=build /app/target/real-estate-3d-0.0.1-SNAPSHOT.jar /app/app.jar
+
+# Railway exposes the container on the port your app listens to.
 EXPOSE 8081
 
-# Run the application
-CMD ["java", "-jar", "target/real-estate-3d-0.0.1-SNAPSHOT.jar"]
+# Help avoid OOM on small plans
+ENV JAVA_TOOL_OPTIONS="-XX:MaxRAMPercentage=75.0"
+
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
