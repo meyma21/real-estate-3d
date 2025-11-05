@@ -19,6 +19,7 @@
 .floor-image-swiper .swiper-slide {
   pointer-events: auto !important;
   touch-action: pan-y !important;
+  position: relative;
 }
 
 /* Mobile-specific touch handling */
@@ -45,4 +46,14 @@
 .floor-image-swiper img {
   pointer-events: none !important;
   touch-action: pan-y !important;
+}
+
+/* Ensure only hotspots capture events (overlay stays transparent) */
+.floor-image-swiper .hotspot-layer {
+  pointer-events: none !important;
+  z-index: 30 !important;
+}
+
+.floor-image-swiper .glass-hotspot {
+  pointer-events: auto !important;
 }
